@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1CB73A20C2A367006D8B37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CB73920C2A367006D8B37 /* AppDelegate.swift */; };
+		3F1CB73C20C2A367006D8B37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CB73B20C2A367006D8B37 /* ViewController.swift */; };
+		3F1CB73F20C2A367006D8B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1CB73D20C2A367006D8B37 /* Main.storyboard */; };
+		3F1CB74120C2A367006D8B37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1CB74020C2A367006D8B37 /* Assets.xcassets */; };
+		3F1CB74420C2A368006D8B37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1CB74220C2A368006D8B37 /* LaunchScreen.storyboard */; };
+		3F1CB74F20C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CB74E20C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleTests.swift */; };
+		3F1CB75A20C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CB75920C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F1CB74B20C2A368006D8B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1CB72E20C2A367006D8B37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1CB73520C2A367006D8B37;
+			remoteInfo = "Werkstuk1 Mathéo DExelle";
+		};
+		3F1CB75620C2A368006D8B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1CB72E20C2A367006D8B37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1CB73520C2A367006D8B37;
+			remoteInfo = "Werkstuk1 Mathéo DExelle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F1CB73620C2A367006D8B37 /* Werkstuk1 Mathéo DExelle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Werkstuk1 Mathéo DExelle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1CB73920C2A367006D8B37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F1CB73B20C2A367006D8B37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F1CB73E20C2A367006D8B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F1CB74020C2A367006D8B37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F1CB74320C2A368006D8B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F1CB74520C2A368006D8B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1CB74A20C2A368006D8B37 /* Werkstuk1 Mathéo DExelleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Werkstuk1 Mathéo DExelleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1CB74E20C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Werkstuk1_Mathe_o_DExelleTests.swift; sourceTree = "<group>"; };
+		3F1CB75020C2A368006D8B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1CB75520C2A368006D8B37 /* Werkstuk1 Mathéo DExelleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Werkstuk1 Mathéo DExelleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1CB75920C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Werkstuk1_Mathe_o_DExelleUITests.swift; sourceTree = "<group>"; };
+		3F1CB75B20C2A368006D8B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1CB73320C2A367006D8B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1CB74720C2A368006D8B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1CB75220C2A368006D8B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1CB72D20C2A367006D8B37 = {
+			isa = PBXGroup;
+			children = (
+				3F1CB73820C2A367006D8B37 /* Werkstuk1 Mathéo DExelle */,
+				3F1CB74D20C2A368006D8B37 /* Werkstuk1 Mathéo DExelleTests */,
+				3F1CB75820C2A368006D8B37 /* Werkstuk1 Mathéo DExelleUITests */,
+				3F1CB73720C2A367006D8B37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1CB73720C2A367006D8B37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1CB73620C2A367006D8B37 /* Werkstuk1 Mathéo DExelle.app */,
+				3F1CB74A20C2A368006D8B37 /* Werkstuk1 Mathéo DExelleTests.xctest */,
+				3F1CB75520C2A368006D8B37 /* Werkstuk1 Mathéo DExelleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1CB73820C2A367006D8B37 /* Werkstuk1 Mathéo DExelle */ = {
+			isa = PBXGroup;
+			children = (
+				3F1CB73920C2A367006D8B37 /* AppDelegate.swift */,
+				3F1CB73B20C2A367006D8B37 /* ViewController.swift */,
+				3F1CB73D20C2A367006D8B37 /* Main.storyboard */,
+				3F1CB74020C2A367006D8B37 /* Assets.xcassets */,
+				3F1CB74220C2A368006D8B37 /* LaunchScreen.storyboard */,
+				3F1CB74520C2A368006D8B37 /* Info.plist */,
+			);
+			path = "Werkstuk1 Mathéo DExelle";
+			sourceTree = "<group>";
+		};
+		3F1CB74D20C2A368006D8B37 /* Werkstuk1 Mathéo DExelleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1CB74E20C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleTests.swift */,
+				3F1CB75020C2A368006D8B37 /* Info.plist */,
+			);
+			path = "Werkstuk1 Mathéo DExelleTests";
+			sourceTree = "<group>";
+		};
+		3F1CB75820C2A368006D8B37 /* Werkstuk1 Mathéo DExelleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1CB75920C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleUITests.swift */,
+				3F1CB75B20C2A368006D8B37 /* Info.plist */,
+			);
+			path = "Werkstuk1 Mathéo DExelleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1CB73520C2A367006D8B37 /* Werkstuk1 Mathéo DExelle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1CB75E20C2A368006D8B37 /* Build configuration list for PBXNativeTarget "Werkstuk1 Mathéo DExelle" */;
+			buildPhases = (
+				3F1CB73220C2A367006D8B37 /* Sources */,
+				3F1CB73320C2A367006D8B37 /* Frameworks */,
+				3F1CB73420C2A367006D8B37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Werkstuk1 Mathéo DExelle";
+			productName = "Werkstuk1 Mathéo DExelle";
+			productReference = 3F1CB73620C2A367006D8B37 /* Werkstuk1 Mathéo DExelle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F1CB74920C2A368006D8B37 /* Werkstuk1 Mathéo DExelleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1CB76120C2A368006D8B37 /* Build configuration list for PBXNativeTarget "Werkstuk1 Mathéo DExelleTests" */;
+			buildPhases = (
+				3F1CB74620C2A368006D8B37 /* Sources */,
+				3F1CB74720C2A368006D8B37 /* Frameworks */,
+				3F1CB74820C2A368006D8B37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1CB74C20C2A368006D8B37 /* PBXTargetDependency */,
+			);
+			name = "Werkstuk1 Mathéo DExelleTests";
+			productName = "Werkstuk1 Mathéo DExelleTests";
+			productReference = 3F1CB74A20C2A368006D8B37 /* Werkstuk1 Mathéo DExelleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F1CB75420C2A368006D8B37 /* Werkstuk1 Mathéo DExelleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1CB76420C2A368006D8B37 /* Build configuration list for PBXNativeTarget "Werkstuk1 Mathéo DExelleUITests" */;
+			buildPhases = (
+				3F1CB75120C2A368006D8B37 /* Sources */,
+				3F1CB75220C2A368006D8B37 /* Frameworks */,
+				3F1CB75320C2A368006D8B37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1CB75720C2A368006D8B37 /* PBXTargetDependency */,
+			);
+			name = "Werkstuk1 Mathéo DExelleUITests";
+			productName = "Werkstuk1 Mathéo DExelleUITests";
+			productReference = 3F1CB75520C2A368006D8B37 /* Werkstuk1 Mathéo DExelleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F1CB72E20C2A367006D8B37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = matheo;
+				TargetAttributes = {
+					3F1CB73520C2A367006D8B37 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3F1CB74920C2A368006D8B37 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F1CB73520C2A367006D8B37;
+					};
+					3F1CB75420C2A368006D8B37 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F1CB73520C2A367006D8B37;
+					};
+				};
+			};
+			buildConfigurationList = 3F1CB73120C2A367006D8B37 /* Build configuration list for PBXProject "Werkstuk1 Mathéo DExelle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F1CB72D20C2A367006D8B37;
+			productRefGroup = 3F1CB73720C2A367006D8B37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1CB73520C2A367006D8B37 /* Werkstuk1 Mathéo DExelle */,
+				3F1CB74920C2A368006D8B37 /* Werkstuk1 Mathéo DExelleTests */,
+				3F1CB75420C2A368006D8B37 /* Werkstuk1 Mathéo DExelleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1CB73420C2A367006D8B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1CB74420C2A368006D8B37 /* LaunchScreen.storyboard in Resources */,
+				3F1CB74120C2A367006D8B37 /* Assets.xcassets in Resources */,
+				3F1CB73F20C2A367006D8B37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1CB74820C2A368006D8B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1CB75320C2A368006D8B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F1CB73220C2A367006D8B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1CB73C20C2A367006D8B37 /* ViewController.swift in Sources */,
+				3F1CB73A20C2A367006D8B37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1CB74620C2A368006D8B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1CB74F20C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1CB75120C2A368006D8B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1CB75A20C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F1CB74C20C2A368006D8B37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1CB73520C2A367006D8B37 /* Werkstuk1 Mathéo DExelle */;
+			targetProxy = 3F1CB74B20C2A368006D8B37 /* PBXContainerItemProxy */;
+		};
+		3F1CB75720C2A368006D8B37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1CB73520C2A367006D8B37 /* Werkstuk1 Mathéo DExelle */;
+			targetProxy = 3F1CB75620C2A368006D8B37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F1CB73D20C2A367006D8B37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1CB73E20C2A367006D8B37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F1CB74220C2A368006D8B37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1CB74320C2A368006D8B37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F1CB75C20C2A368006D8B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F1CB75D20C2A368006D8B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1CB75F20C2A368006D8B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Werkstuk1 Mathéo DExelle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "matheo.student.ehb.Werkstuk1-Mathe-o-DExelle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F1CB76020C2A368006D8B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Werkstuk1 Mathéo DExelle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "matheo.student.ehb.Werkstuk1-Mathe-o-DExelle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F1CB76220C2A368006D8B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Werkstuk1 Mathéo DExelleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "matheo.student.ehb.Werkstuk1-Mathe-o-DExelleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Werkstuk1 Mathéo DExelle.app/Werkstuk1 Mathéo DExelle";
+			};
+			name = Debug;
+		};
+		3F1CB76320C2A368006D8B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Werkstuk1 Mathéo DExelleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "matheo.student.ehb.Werkstuk1-Mathe-o-DExelleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Werkstuk1 Mathéo DExelle.app/Werkstuk1 Mathéo DExelle";
+			};
+			name = Release;
+		};
+		3F1CB76520C2A368006D8B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Werkstuk1 Mathéo DExelleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "matheo.student.ehb.Werkstuk1-Mathe-o-DExelleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Werkstuk1 Mathéo DExelle";
+			};
+			name = Debug;
+		};
+		3F1CB76620C2A368006D8B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Werkstuk1 Mathéo DExelleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "matheo.student.ehb.Werkstuk1-Mathe-o-DExelleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Werkstuk1 Mathéo DExelle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1CB73120C2A367006D8B37 /* Build configuration list for PBXProject "Werkstuk1 Mathéo DExelle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1CB75C20C2A368006D8B37 /* Debug */,
+				3F1CB75D20C2A368006D8B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1CB75E20C2A368006D8B37 /* Build configuration list for PBXNativeTarget "Werkstuk1 Mathéo DExelle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1CB75F20C2A368006D8B37 /* Debug */,
+				3F1CB76020C2A368006D8B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1CB76120C2A368006D8B37 /* Build configuration list for PBXNativeTarget "Werkstuk1 Mathéo DExelleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1CB76220C2A368006D8B37 /* Debug */,
+				3F1CB76320C2A368006D8B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1CB76420C2A368006D8B37 /* Build configuration list for PBXNativeTarget "Werkstuk1 Mathéo DExelleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1CB76520C2A368006D8B37 /* Debug */,
+				3F1CB76620C2A368006D8B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F1CB72E20C2A367006D8B37 /* Project object */;
+}
