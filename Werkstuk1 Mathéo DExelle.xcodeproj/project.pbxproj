@@ -17,6 +17,7 @@
 		3F1CB76B20C2AA3D006D8B37 /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CB76A20C2AA3D006D8B37 /* Persoon.swift */; };
 		3F1CB76F20C2C5EF006D8B37 /* PersoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CB76E20C2C5EF006D8B37 /* PersoonViewController.swift */; };
 		3FE6A20F20C3FC99007EF188 /* PersoonSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6A20E20C3FC99007EF188 /* PersoonSingleton.swift */; };
+		3FE6A21520C41295007EF188 /* ArrayPersonenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6A21420C41295007EF188 /* ArrayPersonenTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3F1CB76A20C2AA3D006D8B37 /* Persoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
 		3F1CB76E20C2C5EF006D8B37 /* PersoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PersoonViewController.swift; path = ../PersoonViewController.swift; sourceTree = "<group>"; };
 		3FE6A20E20C3FC99007EF188 /* PersoonSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoonSingleton.swift; sourceTree = "<group>"; };
+		3FE6A21420C41295007EF188 /* ArrayPersonenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPersonenTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +105,16 @@
 		3F1CB73820C2A367006D8B37 /* Werkstuk1 Mathéo DExelle */ = {
 			isa = PBXGroup;
 			children = (
-				3F1CB76E20C2C5EF006D8B37 /* PersoonViewController.swift */,
 				3F1CB73920C2A367006D8B37 /* AppDelegate.swift */,
+				3F1CB76E20C2C5EF006D8B37 /* PersoonViewController.swift */,
+				3FE6A21420C41295007EF188 /* ArrayPersonenTableViewController.swift */,
 				3F1CB73B20C2A367006D8B37 /* ViewController.swift */,
-				3F1CB76A20C2AA3D006D8B37 /* Persoon.swift */,
-				3F1CB74020C2A367006D8B37 /* Assets.xcassets */,
 				3F1CB73D20C2A367006D8B37 /* Main.storyboard */,
+				3F1CB76A20C2AA3D006D8B37 /* Persoon.swift */,
+				3FE6A20E20C3FC99007EF188 /* PersoonSingleton.swift */,
+				3F1CB74020C2A367006D8B37 /* Assets.xcassets */,
 				3F1CB74220C2A368006D8B37 /* LaunchScreen.storyboard */,
 				3F1CB74520C2A368006D8B37 /* Info.plist */,
-				3FE6A20E20C3FC99007EF188 /* PersoonSingleton.swift */,
 			);
 			path = "Werkstuk1 Mathéo DExelle";
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				3F1CB76B20C2AA3D006D8B37 /* Persoon.swift in Sources */,
 				3FE6A20F20C3FC99007EF188 /* PersoonSingleton.swift in Sources */,
 				3F1CB76F20C2C5EF006D8B37 /* PersoonViewController.swift in Sources */,
+				3FE6A21520C41295007EF188 /* ArrayPersonenTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

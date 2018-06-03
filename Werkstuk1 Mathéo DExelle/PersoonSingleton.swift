@@ -8,6 +8,21 @@
 
 import UIKit
 
-class PersoonSingleton{
+final class PersoonSingleton{
+    static let instance = PersoonSingleton()
+    private var arrayPersonen = [Persoon]()
     
+    private init(){
+        self.arrayPersonen = [
+        Persoon(naam: "DExelle Mathéo",voornaam: "",profielfoto: "",straat: "",nummer: "",postcode: "",gemeente: "",GPSLong: 0.0,GPSLat: 0.0,telefoon: ""),
+        Persoon(naam: "Van Perk",voornaam: "Michiel",profielfoto: "",straat: "",nummer: "",postcode: "",gemeente: "",GPSLong: 0.0,GPSLat: 0.0,telefoon: ""),
+        Persoon(naam: "Verhuffel",voornaam: "Sandrien",profielfoto: "",straat: "",nummer: "",postcode: "",gemeente: "",GPSLong: 0.0,GPSLat: 0.0,telefoon: ""),
+        Persoon(naam: "Verbroden",voornaam: "Sam",profielfoto: "",straat: "",nummer: "",postcode: "",gemeente: "",GPSLong: 0.0,GPSLat: 0.0,telefoon: ""),
+        Persoon(naam: "Tonio",voornaam: "Veronique",profielfoto: "",straat: "",nummer: "",postcode: "",gemeente: "",GPSLong: 0.0,GPSLat: 0.0,telefoon: ""),
+        
+        ]
+    }
+    public func getArrayPersonen() -> [Persoon]{
+        return self.arrayPersonen
+    }
 }
