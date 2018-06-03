@@ -14,6 +14,9 @@
 		3F1CB74420C2A368006D8B37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1CB74220C2A368006D8B37 /* LaunchScreen.storyboard */; };
 		3F1CB74F20C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CB74E20C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleTests.swift */; };
 		3F1CB75A20C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CB75920C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleUITests.swift */; };
+		3F1CB76B20C2AA3D006D8B37 /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CB76A20C2AA3D006D8B37 /* Persoon.swift */; };
+		3F1CB76F20C2C5EF006D8B37 /* PersoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CB76E20C2C5EF006D8B37 /* PersoonViewController.swift */; };
+		3FE6A20F20C3FC99007EF188 /* PersoonSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6A20E20C3FC99007EF188 /* PersoonSingleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3F1CB75520C2A368006D8B37 /* Werkstuk1 Mathéo DExelleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Werkstuk1 Mathéo DExelleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1CB75920C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Werkstuk1_Mathe_o_DExelleUITests.swift; sourceTree = "<group>"; };
 		3F1CB75B20C2A368006D8B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1CB76A20C2AA3D006D8B37 /* Persoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
+		3F1CB76E20C2C5EF006D8B37 /* PersoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PersoonViewController.swift; path = ../PersoonViewController.swift; sourceTree = "<group>"; };
+		3FE6A20E20C3FC99007EF188 /* PersoonSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoonSingleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		3F1CB73820C2A367006D8B37 /* Werkstuk1 Mathéo DExelle */ = {
 			isa = PBXGroup;
 			children = (
+				3F1CB76E20C2C5EF006D8B37 /* PersoonViewController.swift */,
 				3F1CB73920C2A367006D8B37 /* AppDelegate.swift */,
 				3F1CB73B20C2A367006D8B37 /* ViewController.swift */,
-				3F1CB73D20C2A367006D8B37 /* Main.storyboard */,
+				3F1CB76A20C2AA3D006D8B37 /* Persoon.swift */,
 				3F1CB74020C2A367006D8B37 /* Assets.xcassets */,
+				3F1CB73D20C2A367006D8B37 /* Main.storyboard */,
 				3F1CB74220C2A368006D8B37 /* LaunchScreen.storyboard */,
 				3F1CB74520C2A368006D8B37 /* Info.plist */,
+				3FE6A20E20C3FC99007EF188 /* PersoonSingleton.swift */,
 			);
 			path = "Werkstuk1 Mathéo DExelle";
 			sourceTree = "<group>";
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					3F1CB73520C2A367006D8B37 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					3F1CB74920C2A368006D8B37 = {
@@ -261,6 +271,9 @@
 			files = (
 				3F1CB73C20C2A367006D8B37 /* ViewController.swift in Sources */,
 				3F1CB73A20C2A367006D8B37 /* AppDelegate.swift in Sources */,
+				3F1CB76B20C2AA3D006D8B37 /* Persoon.swift in Sources */,
+				3FE6A20F20C3FC99007EF188 /* PersoonSingleton.swift in Sources */,
+				3F1CB76F20C2C5EF006D8B37 /* PersoonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,11 +439,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Werkstuk1 Mathéo DExelle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "matheo.student.ehb.Werkstuk1-Mathe-o-DExelle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Werkstuk1 Mathéo DExelle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
