@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3F1CB73A20C2A367006D8B37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CB73920C2A367006D8B37 /* AppDelegate.swift */; };
-		3F1CB73C20C2A367006D8B37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CB73B20C2A367006D8B37 /* ViewController.swift */; };
 		3F1CB73F20C2A367006D8B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1CB73D20C2A367006D8B37 /* Main.storyboard */; };
 		3F1CB74120C2A367006D8B37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1CB74020C2A367006D8B37 /* Assets.xcassets */; };
 		3F1CB74420C2A368006D8B37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1CB74220C2A368006D8B37 /* LaunchScreen.storyboard */; };
@@ -16,6 +15,8 @@
 		3F1CB75A20C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CB75920C2A368006D8B37 /* Werkstuk1_Mathe_o_DExelleUITests.swift */; };
 		3F1CB76B20C2AA3D006D8B37 /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CB76A20C2AA3D006D8B37 /* Persoon.swift */; };
 		3F1CB76F20C2C5EF006D8B37 /* PersoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CB76E20C2C5EF006D8B37 /* PersoonViewController.swift */; };
+		3FA4C0E120C46EBE00BFF253 /* LocatieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA4C0E020C46EBE00BFF253 /* LocatieViewController.swift */; };
+		3FA4C0E320C4711000BFF253 /* AnnotationPers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA4C0E220C4711000BFF253 /* AnnotationPers.swift */; };
 		3FE6A20F20C3FC99007EF188 /* PersoonSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6A20E20C3FC99007EF188 /* PersoonSingleton.swift */; };
 		3FE6A21520C41295007EF188 /* ArrayPersonenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6A21420C41295007EF188 /* ArrayPersonenTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -40,7 +41,6 @@
 /* Begin PBXFileReference section */
 		3F1CB73620C2A367006D8B37 /* Werkstuk1 Mathéo DExelle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Werkstuk1 Mathéo DExelle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1CB73920C2A367006D8B37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F1CB73B20C2A367006D8B37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F1CB73E20C2A367006D8B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F1CB74020C2A367006D8B37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F1CB74320C2A368006D8B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		3F1CB75B20C2A368006D8B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F1CB76A20C2AA3D006D8B37 /* Persoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
 		3F1CB76E20C2C5EF006D8B37 /* PersoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PersoonViewController.swift; path = ../PersoonViewController.swift; sourceTree = "<group>"; };
+		3FA4C0E020C46EBE00BFF253 /* LocatieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatieViewController.swift; sourceTree = "<group>"; };
+		3FA4C0E220C4711000BFF253 /* AnnotationPers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationPers.swift; sourceTree = "<group>"; };
 		3FE6A20E20C3FC99007EF188 /* PersoonSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoonSingleton.swift; sourceTree = "<group>"; };
 		3FE6A21420C41295007EF188 /* ArrayPersonenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPersonenTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,12 +110,13 @@
 				3F1CB73920C2A367006D8B37 /* AppDelegate.swift */,
 				3F1CB76E20C2C5EF006D8B37 /* PersoonViewController.swift */,
 				3FE6A21420C41295007EF188 /* ArrayPersonenTableViewController.swift */,
-				3F1CB73B20C2A367006D8B37 /* ViewController.swift */,
 				3F1CB73D20C2A367006D8B37 /* Main.storyboard */,
 				3F1CB76A20C2AA3D006D8B37 /* Persoon.swift */,
 				3FE6A20E20C3FC99007EF188 /* PersoonSingleton.swift */,
 				3F1CB74020C2A367006D8B37 /* Assets.xcassets */,
 				3F1CB74220C2A368006D8B37 /* LaunchScreen.storyboard */,
+				3FA4C0E020C46EBE00BFF253 /* LocatieViewController.swift */,
+				3FA4C0E220C4711000BFF253 /* AnnotationPers.swift */,
 				3F1CB74520C2A368006D8B37 /* Info.plist */,
 			);
 			path = "Werkstuk1 Mathéo DExelle";
@@ -272,9 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F1CB73C20C2A367006D8B37 /* ViewController.swift in Sources */,
+				3FA4C0E120C46EBE00BFF253 /* LocatieViewController.swift in Sources */,
 				3F1CB73A20C2A367006D8B37 /* AppDelegate.swift in Sources */,
 				3F1CB76B20C2AA3D006D8B37 /* Persoon.swift in Sources */,
+				3FA4C0E320C4711000BFF253 /* AnnotationPers.swift in Sources */,
 				3FE6A20F20C3FC99007EF188 /* PersoonSingleton.swift in Sources */,
 				3F1CB76F20C2C5EF006D8B37 /* PersoonViewController.swift in Sources */,
 				3FE6A21520C41295007EF188 /* ArrayPersonenTableViewController.swift in Sources */,

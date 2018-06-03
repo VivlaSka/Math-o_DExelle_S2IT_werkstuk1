@@ -29,7 +29,7 @@ class ArrayPersonenTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
     /*
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -42,6 +42,7 @@ class ArrayPersonenTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myPersoonCell", for: indexPath)
 
         cell.textLabel?.text = arrayPersonen[indexPath.row].voornaam + " " + arrayPersonen[indexPath.row].naam
+        cell.imageView?.image = UIImage(named: arrayPersonen[indexPath.row].profielfoto)
         return cell
     }
     
