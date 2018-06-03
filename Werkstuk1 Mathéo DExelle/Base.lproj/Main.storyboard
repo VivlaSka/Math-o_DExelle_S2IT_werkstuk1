@@ -104,13 +104,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWC-Gx-bX0">
-                                <rect key="frame" x="198" y="227" width="112" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qIX-XB-wK9">
                                 <rect key="frame" x="0.0" y="64" width="147" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -128,13 +121,6 @@
                                     <outletCollection property="gestureRecognizers" destination="6Y2-YJ-rQD" appends="YES" id="6I3-28-FOq"/>
                                 </connections>
                             </mapView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmW-eO-hen">
-                                <rect key="frame" x="17" y="227" width="112" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9g-v7-gHy">
                                 <rect key="frame" x="159" y="189" width="151" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -157,8 +143,6 @@
                     <connections>
                         <outlet property="myAchternaam" destination="Cwb-AC-U4S" id="i9v-Ry-Fnn"/>
                         <outlet property="myAdres" destination="qlG-mU-y9c" id="W3P-jC-0Mi"/>
-                        <outlet property="myGPSLat" destination="KWC-Gx-bX0" id="wkA-MW-pzs"/>
-                        <outlet property="myGPSLon" destination="gmW-eO-hen" id="pv1-Sf-nfH"/>
                         <outlet property="myMap" destination="CDA-Dw-OWy" id="7C1-zP-lSv"/>
                         <outlet property="myProfielfoto" destination="qIX-XB-wK9" id="RJ0-Xs-BsV"/>
                         <outlet property="myTelefoon" destination="F9g-v7-gHy" id="6bE-9L-BvT"/>
